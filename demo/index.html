@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>ambilight.js</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <script type="text/javascript" defer src="bundle.js"></script>
+    <style>
+        body, html {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            margin: 0;
+            background: #111111;
+        }
+
+        video {
+            margin: auto;
+            border: 6px solid #000;
+            border-radius: 4px;
+            box-shadow: rgba(0, 0, 0, 0.7) 0 0 5px 1px;
+        }
+
+        .ambilight_player {
+            margin: auto;
+        }
+
+        .copyright {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 10px;
+            text-align: right;
+            color: #4e4e4e;
+            font-size: 12px;
+            font-family: "Indie Flower", serif;
+            text-shadow: 0 0 2px #000;
+            font-weight: bold;
+        }
+
+        .copyright a {
+            text-decoration: none;
+            color: #4e4e4e;
+        }
+    </style>
+</head>
+<body>
+    <video src="video/aurora.mp4" width="600" controls></video>
+
+    <div class="copyright">
+        <span class="title">Aurora 2013</span> by <a href="http://chrigu.org" target="_blank">Christian Mülhauser</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.ambilight_player {
+    position: relative;
+    padding: 0;
+}
+
+.ambilight_player video {
+    z-index: 1;
+    position: relative;
+}
+
+.ambilight_backcanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+.ambilight_backlayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.ambilight_backlayer > div {
+    flex: 0 0 auto;
+    margin: 0;
+    transition: box-shadow 0.8s;
+    transition-timing-function: ease-out;
+    transform: translateZ(0);
+    border-radius: 30px;
+}

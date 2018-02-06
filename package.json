@@ -1,0 +1,26 @@
+{
+  "name": "ambilight.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/ambilight.js",
+  "scripts": {
+    "build": "npm run build:prod && npm run build:demo",
+    "build:prod": "webpack -p",
+    "build:demo": "webpack -p --config demo/webpack.config.js",
+    "dev": "webpack-dev-server --config demo/webpack.config.js",
+    "clean": "rm -rf dist && rm -f demo/bundle.js"
+  },
+  "author": "mirz <that.mirz@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-es2015-spread": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.9",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}

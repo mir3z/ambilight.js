@@ -20,4 +20,4 @@ $title.innerHTML = content.title;
 $a.href = content.homepage;
 $a.innerHTML = content.author;
 
-ambilight($video, ambient());
+ambilight($video, led());

@@ -3,9 +3,9 @@
 [Ambilight effect](https://en.wikipedia.org/wiki/Ambilight) for HTML.
 
 Demos:
-* [Aurora](https://cdn.rawgit.com/mir3z/ambilight.js/47446dc5/demo/index.html)
-* [Dartmoor](https://cdn.rawgit.com/mir3z/ambilight.js/47446dc5/demo/index.html?_=1)
-* [The Peak](https://cdn.rawgit.com/mir3z/ambilight.js/47446dc5/demo/index.html?_=2)
+* [Aurora](https://cdn.rawgit.com/mir3z/ambilight.js/13dbbd34/demo/index.html)
+* [Dartmoor](https://cdn.rawgit.com/mir3z/ambilight.js/13dbbd34/demo/index.html?_=1)
+* [The Peak](https://cdn.rawgit.com/mir3z/ambilight.js/13dbbd34/demo/index.html?_=2)
 
 
 ## Quick Usage
